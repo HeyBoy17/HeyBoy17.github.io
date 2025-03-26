@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+body {
+    font-family: 'Kalam', sans-serif;
+    text-align: center;
+    color: #ebebeb;
+    background-color: #3b3b3b;
+}
+
+#profile_pic {
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 10px;
+    /*margin-bottom: 10px;*/
+}
+
+#socials {
+    margin-top: 0px;
+    padding-inline: 10px;
+}
+
+#nav_bar {
+    width: fit-content;
+    margin: 20px auto;
+    display: block;
+    border: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #ebebeb;
+    padding: 15px;
+}
+
+button {
+    font-family: 'Kalam', sans-serif;
+    width: 100px;
+    padding: 5px;
+    margin-inline: 10px;
+    cursor: pointer;
+    border: 2px solid #3b3b3b;
+    background-color: #3b3b3b;
+    color: #ebebeb;
+    border-color: #ebebeb;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #ebebeb;
+    color: #3b3b3b;
+}
+
+#description {
+    margin: 20px auto;
+    text-align: left;
+    display: block;
+    width: 500px;
+}
+
+footer {
+    text-align: left;
+    position: relative;
+    bottom: 0;
+}

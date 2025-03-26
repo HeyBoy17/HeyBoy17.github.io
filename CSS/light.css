@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+body {
+    font-family: 'Kalam', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#profile_pic {
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 35px;
+    /*margin-bottom: 10px;*/
+}
+
+h2 {
+    text-align: left;
+}
+
+#socials {
+    margin-top: 0px;
+    margin-inline: 5px;
+}
+
+#nav_bar {
+    width: fit-content;
+    margin: 20px auto;
+    display: block;
+    border: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+    padding: 15px;
+}
+
+.nav_but {
+    font-family: 'Kalam', sans-serif;
+    width: 100px;
+    padding: 5px;
+    margin-inline: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.nav_but:hover {
+    background-color: black;
+    color: white;
+}
+
+#description {
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    width: 500px;
+}
+
+footer {
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+}
+
+.top_but {
+    font-family: 'Kalam', sans-serif;
+    width: 100px;
+    padding: 5px;
+    margin-inline: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.top_but:hover {
+    background-color: black;
+    color: white;
+}
+
+#top_bar{
+    text-align: right;
+    margin: 20px;
+}
+input{
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
