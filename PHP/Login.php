@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'];
 
     // Read the credentials from the text file
-    $credentials = file('C:\xampp\htdocs\Buitenhuis\HiLo_Game\Documents\Login_Credentials.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $credentials = file('../Documents/Login_Credentials.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     $isValid = false;
 
     foreach ($credentials as $credential) {
