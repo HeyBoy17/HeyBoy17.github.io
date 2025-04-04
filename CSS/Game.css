@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+body {
+    font-family: 'Kalam', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#top_bar {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content:space-between; /* Distributes space between items*/
+    /* padding: 10px; */ /* Adds some padding */
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 190px;
+}
+
+.top_but {
+    font-family: 'Kalam', sans-serif;
+    width: 100px;
+    padding: 5px;
+    margin-inline: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.top_but:hover {
+    background-color: black;
+    color: white;
+}
+
+.bet_but {
+    font-family: 'Kalam', sans-serif;
+    width: 100px;
+    padding: 5px;
+    margin-inline: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.bet_but:hover {
+    background-color: black;
+    color: white;
+}
+
+#history{   
+    width: 300px;
+    margin:auto;
+    margin-top: 15px;
+}
+
+.history_num{
+    font-size: large;
+}
+
+#game{
+    border: 2px solid;
+    border-color: #000;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin:auto;
+}
+
+#bet_inp{
+    font-family: 'Kalam', sans-serif;
+    width: 150px;
+    padding: 5px;
+    cursor: text;
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#bet_sub{
+    font-family: 'Kalam', sans-serif;
+    width: 50px;
+    padding: 5px;
+    margin-inline: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#bet_sub:hover {
+    background-color: black;
+    color: white;
+}
+
+#description {
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    width: 500px;
+}
+
+footer {
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+}
